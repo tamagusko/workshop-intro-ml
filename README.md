@@ -13,8 +13,8 @@ Licence: [LICENSE](/LICENSE)
 
 # Links
     
-> [Project 1: COVID_PT](/covid_pt.ipynb)  
-> [Project 2: COVID_PT](/covid_pt.ipynb)
+> [Project 1: Predict Pulsar](/predictPulsar.ipynb)  
+> [Project 2: Leukemia Detect](/LeukemiaDetect.ipynb)
 
 # Citation
 Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://github.com/tamagusko/jest20201  
