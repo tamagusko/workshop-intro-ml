@@ -4,6 +4,8 @@
 - First draft. [@tamagusko](https://github.com/tamagusko)
 ### Changed - 2020-06-01
 - Code refactoring. [@tamagusko](https://github.com/tamagusko)
+### Changed - 2020-06-02
+- Change metrics. [@tamagusko](https://github.com/tamagusko)
 <!--
 ### Added
 ### Changed
