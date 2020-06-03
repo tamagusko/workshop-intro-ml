@@ -8,13 +8,13 @@ License: [LICENSE](/LICENSE)
 
 # Projects
     
-    ├── 1) Predict Pulsar Star        # Classify stars between Pulsar and non-Pulsar (optional)
+    ├── 1) Predict Pulsar Star        # Classify stars between Pulsar and non-Pulsar (unstable version)  
     ├── 2) Leukemia detect            # Classify patients between leukemia or not (under development)  
 
 # Links
     
-> [Project 1: Predict Pulsar]<!--(/predictPulsar.ipynb)-->  
-> [Project 2: Leukemia Detect](/LeukemiaDetect.ipynb)
+> [Project 1: Predict Pulsar]<!--(/predictPulsar.ipynb)-->   
+> [Project 2: Leukemia Detect](/leukemiaDetect.ipynb)
 
 # Citation
 Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://github.com/tamagusko/jest20201  
