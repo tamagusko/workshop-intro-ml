@@ -20,5 +20,5 @@ License: [LICENSE](/LICENSE)
 Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://github.com/tamagusko/jest20201  
 
 # References
-[1] Dataset to support the study. (2020, May 31). Retrieved from https://github.com/spingegod/ProjetoTI_part2
+[1] Dataset to support the study. (2020, May 31). Retrieved from https://github.com/spingegod/ProjetoTI_part2  
 [2] Dataset to support the study. (2020, Jun 03). Retrieved from https://github.com/spingegod/ProjetoTI_part1
