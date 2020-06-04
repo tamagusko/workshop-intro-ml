@@ -8,8 +8,8 @@ License: [LICENSE](/LICENSE)
 
 # Projects
     
-    ├── 1) Predict Pulsar Star        # Classify stars between Pulsar and non-Pulsar (unfinished version)  
-    ├── 2) Leukemia detect            # Classify patients between leukemia or not (draft version)  
+    ├── 1) Predict Pulsar star [1]       # Classify stars between Pulsar and non-Pulsar (not finished)  
+    ├── 2) Leukemia detect [2]           # Classify patients between leukemia or not (under development)  
 
 # Links
     
@@ -20,5 +20,6 @@ License: [LICENSE](/LICENSE)
 Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://github.com/tamagusko/jest20201  
 
 # References
-[1] Dataset to support the study. (2020, May 31). Retrieved from https://github.com/spingegod/ProjetoTI_part2  
-[2] Dataset to support the study. (2020, Jun 03). Retrieved from https://github.com/spingegod/ProjetoTI_part1
+[1] Dataset to support the study. (2020, Jun 03). Retrieved from https://github.com/spingegod/ProjetoTI_part1  
+[2] Dataset to support the study. (2020, May 31). Retrieved from https://github.com/spingegod/ProjetoTI_part2
+
