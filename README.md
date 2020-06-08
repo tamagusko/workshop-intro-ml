@@ -1,4 +1,4 @@
-This repository contains the JEST 2020/1 IT Initiation Project, parts 1 (not finished) and 2 (under development).
+This repository contains the JEST 2020/1 IT Initiation Project, parts 1 (under development) and 2 (under development).
 
 # Basic info
 © Tiago Tamagusko (tamagusko@gmail.com)  
@@ -8,7 +8,7 @@ License: [LICENSE](/LICENSE)
 
 # Projects
     
-    ├── 1) Predict Pulsar star [1]       # Classify stars between Pulsar and non-Pulsar (not finished)  
+    ├── 1) Predict Pulsar star [1]       # Classify stars between Pulsar and non-Pulsar (under development)  
     ├── 2) Leukemia detect [2]           # Classify patients between leukemia or not (under development)  
 
 # Links
