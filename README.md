@@ -22,4 +22,4 @@ Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://git
 # References
 [1] Dataset to support the study. (2020, Jun 03). Retrieved from https://github.com/spingegod/ProjetoTI_part1  
 [2] Dataset to support the study. (2020, May 31). Retrieved from https://github.com/spingegod/ProjetoTI_part2
-
+[3] Raj, P. (2020). Predicting a Pulsar Star (2020, Jun 03). Retrieved from https://www.kaggle.com/pavanraj159/predicting-a-pulsar-star
