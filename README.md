@@ -8,7 +8,7 @@ License: [LICENSE](/LICENSE)
 
 # Projects
     
-    ├── 1) Predict Pulsar star [1]       # Classify stars between Pulsar and non-Pulsar (under development)  
+    ├── 1) Predict Pulsar star [1, 3]       # Classify stars between Pulsar and non-Pulsar (under development)  
     ├── 2) Leukemia detect [2]           # Classify patients between leukemia or not (under development)  
 
 # Links
