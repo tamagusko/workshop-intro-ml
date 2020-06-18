@@ -28,6 +28,6 @@ Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://git
 # References
 [1] Dataset to support the study. (2020, Jun 03). Retrieved from https://github.com/spingegod/ProjetoTI_part1  
 [2] Dataset to support the study. (2020, May 31). Retrieved from https://github.com/spingegod/ProjetoTI_part2  
-[3] Raj, P. (2020). Predicting a Pulsar Star (2020, Jun 03). Retrieved from https://www.kaggle.com/pavanraj159/predicting-a-pulsar-star
-[4] van Rossum, G. (1995). Python tutorial, May 1995. CWI Report CS-R9526, CS-R9526, 1–65.
+[3] Raj, P. (2020). Predicting a Pulsar Star (2020, Jun 03). Retrieved from https://www.kaggle.com/pavanraj159/predicting-a-pulsar-star  
+[4] van Rossum, G. (1995). Python tutorial, May 1995. CWI Report CS-R9526, CS-R9526, 1–65.  
 [5] Breiman, L. (2001). Random forests. 28. https://doi.org/http://dx.doi.org/10.1023/A:1010933404324
