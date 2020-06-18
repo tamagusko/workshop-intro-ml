@@ -14,7 +14,7 @@ Install the required packages with `pip install -r requirements.txt`
 
 # Projects
     
-    ├── 1) Predict Pulsar star [2-5]       # Classify stars between Pulsar and non-Pulsar (under development)  
+    ├── 1) Predict Pulsar star [2-5]              # Classify stars between Pulsar and non-Pulsar (under development)  
     ├── 2) Leukemia detect [1, 4, 5]              # Classify patients between leukemia or not (under development)  
 
 # Links
