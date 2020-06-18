@@ -6,6 +6,12 @@ Version: [CHANGELOG.md](/CHANGELOG.md)
 Project Page: <a href="https://github.com/tamagusko/jest20201">https://github.com/tamagusko/jest20201</a>  
 License: [LICENSE](/LICENSE)
 
+# Environment
+
+Use Python `3.7 or higher`.
+
+Install the required packages with `pip install -r requirements.txt`
+
 # Projects
     
     ├── 1) Predict Pulsar star [1, 3]       # Classify stars between Pulsar and non-Pulsar (under development)  
