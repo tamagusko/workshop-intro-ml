@@ -1,4 +1,11 @@
 # Changelog - Initiation Project JEST 2020/1
+## Project 1: Predict Pulsar Star [0.0.2] Draft Version
+### Added - 2020-06-24
+- KNN algorithm. [@tamagusko](https://github.com/tamagusko)
+### Changed - 2020-06-24
+- Metrics (improving). [@tamagusko](https://github.com/tamagusko)
+### Fixed  - 2020-06-24
+- Results: with the new metrics, the interpretation of results was changed.
 ## Project 1: Predict Pulsar Star [0.0.1] Draft Version
 ### Added - 2020-06-09
 - First draft. [@tamagusko](https://github.com/tamagusko)
