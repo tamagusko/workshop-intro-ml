@@ -1,4 +1,7 @@
 # Changelog - Initiation Project JEST 2020/1
+## Project 1: Predict Pulsar Star [0.0.3] Draft Version
+### Added - 2020-07-04
+- Undersampling technique applied. [@tamagusko](https://github.com/tamagusko)
 ## Project 1: Predict Pulsar Star [0.0.2] Draft Version
 ### Added - 2020-06-24
 - KNN algorithm. [@tamagusko](https://github.com/tamagusko)
