@@ -4,7 +4,7 @@ This repository contains the JEST 2020/1 IT Initiation Project, parts 1 (under d
 © Tiago Tamagusko (tamagusko@gmail.com)  
 Version: [CHANGELOG.md](/CHANGELOG.md)  
 Project Page: <a href="https://github.com/tamagusko/jest20201">https://github.com/tamagusko/jest20201</a>  
-License: [LICENSE](/LICENSE)
+License: [CC-BY-NC-ND-4.0](/LICENSE)
 
 # Environment
 
