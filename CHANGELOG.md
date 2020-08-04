@@ -1,4 +1,6 @@
 # Changelog - Initiation Project JEST 2020/1
+## Changed - 2020-08-04
+- Changing the license from MIT to CC-BY-NC-ND-4.0.
 ## Project 1: Predict Pulsar Star [0.0.3] Draft Version
 ### Added - 2020-07-04
 - Undersampling technique applied. [@tamagusko](https://github.com/tamagusko)
