@@ -1,4 +1,4 @@
-This repository contains the JEST 2020/1 IT Initiation Project, parts 1 (under development) and 2 (under development).
+This repository contains the JEST 2020/1 IT Initiation Project, parts 1 (under development) and 2.
 
 # Basic info
 © Tiago Tamagusko (tamagusko@gmail.com)  
