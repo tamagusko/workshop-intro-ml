@@ -17,6 +17,16 @@ Install the required packages with `pip install -r requirements.txt`
     ├── 1) Predict Pulsar star [2-5]  # Classify stars between Pulsar and non-Pulsar (under development)  
     ├── 2) Leukemia Detect [1, 4, 5]  # Classify patients between leukemia or not (under development)  
 
+## Project 1 overview:
+This is a classification problem. You need to classify a star dataset in Pulsar and not Pulsar. So, the sample data has a total of 17,898 entries (rows) and 8 features (columns).  
+
+Note: The dataset is unbalanced (non-Pulsar: 16259; Pulsar: 1639).
+## Project 2 overview:
+This is also a classification problem. You need to classify a patient dataset in with leukemia (1) or not (0). Therefore, the sample data has a total of 178  entries (rows) and 186 features (columns).  
+Note 1: Only the first 128 entries are labeled, I will use this slice for train and test. The left 50 unlabeled will be used to predict.  
+Note 2: Again, the dataset is unbalanced (0: 111 patients; 1: 17 patients).  
+Note 3: Feature selection techniques were applied.
+
 # Links
     
 > [Project 1: Predict Pulsar](/predictPulsar.ipynb)  
