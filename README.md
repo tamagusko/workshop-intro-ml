@@ -18,7 +18,7 @@ Install the required packages with `pip install -r requirements.txt`
     ├── 2) Leukemia Detect [1, 4, 5]  # Classify patients between leukemia or not (under development)  
 
 ## Project 1 overview:
-This is a classification problem. You need to classify a star dataset in Pulsar and not Pulsar. So, the sample data has a total of 17,898 entries (rows) and 8 features (columns).  
+This is a classification problem. You need to classify a star dataset in Pulsar and non-Pulsar. So, the sample data has a total of 17,898 entries (rows) and 8 features (columns).  
 
 Note: The dataset is unbalanced (non-Pulsar: 16259; Pulsar: 1639).
 ## Project 2 overview:
