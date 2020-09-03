@@ -41,7 +41,7 @@ Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://git
   author = {Tamagusko, T.},
   title = {Initiation Project JEST 2020/1},
   year = {2020},
-  howpublished = {\url{https://github.com/tamagusko/jest20201}}
+  url = {https://github.com/tamagusko/jest20201}
 }
 ```
 
