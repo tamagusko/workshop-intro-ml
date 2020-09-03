@@ -34,7 +34,16 @@ Note 3: Feature selection techniques were applied.
 > [Project 2: Leukemia Detect](/leukemiaDetect.ipynb)
 
 # Citation
-Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://github.com/tamagusko/jest20201  
+Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://github.com/tamagusko/jest20201
+
+```bibtex
+@misc{jest20201,
+  author = {Tamagusko, T.},
+  title = {Initiation Project JEST 2020/1},
+  year = {2020},
+  howpublished = {\url{https://github.com/tamagusko/jest20201}}
+}
+```
 
 # References
 [1] Dataset to support the study. (2020, May 31). Retrieved from https://github.com/spingegod/ProjetoTI_part2  
