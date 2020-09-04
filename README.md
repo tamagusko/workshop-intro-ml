@@ -40,7 +40,6 @@ Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://git
 @misc{TamaguskoJest20201,
   author = {Tamagusko, Tiago},
   title = {Initiation Project JEST 2020/1},
-  keywords = {python, machine-learning, dataset, pulsar, leukemia, jest},
   year = {2020},
   url = {https://github.com/tamagusko/jest20201}
 }
