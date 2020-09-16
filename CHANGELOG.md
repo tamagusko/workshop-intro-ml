@@ -7,7 +7,7 @@
 ### Added - 2020-09-16
 - XGBoost algorithm. [@tamagusko](https://github.com/tamagusko)
 ### Fixed - 2020-09-16
-- Minor erros, typos, format.
+- Minor erros, typos, format. [@tamagusko](https://github.com/tamagusko)
 ## Project 1: Predict Pulsar Star [0.0.3] Draft Version
 ### Added - 2020-07-04
 - Undersampling technique applied. [@tamagusko](https://github.com/tamagusko)
