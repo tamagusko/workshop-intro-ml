@@ -1,10 +1,10 @@
 This repository contains the JEST 2020/1 IT Initiation Project, parts 1 (under development) and part 2.
 
 # Basic info
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/tamagusko) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE)  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)   
 © Tiago Tamagusko (tamagusko@gmail.com)  
 Version: [CHANGELOG.md](/CHANGELOG.md)  
 Project Page: <a href="https://github.com/tamagusko/jest20201">https://github.com/tamagusko/jest20201</a>  
-License: [CC-BY-NC-ND-4.0](/LICENSE)
 
 # Environment
 
