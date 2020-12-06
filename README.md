@@ -68,7 +68,12 @@ Breiman, L. (2001).
 Random forests. 28. 
 https://doi.org/http://dx.doi.org/10.1023/A:1010933404324 
 
+----
+
+Please direct bug reports and pull requests to the GitHub page. To contact me directly, send email to tamagusko@gmail.com.
+
+-- Tiago
+
 ## License
 
 [CC-BY-NC-ND-4.0](LICENSE) (c) 2020, [Tiago Tamagusko](https://tamagusko.github.io/).
-
