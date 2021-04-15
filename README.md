@@ -32,8 +32,8 @@ Note 3: Feature selection techniques were applied.
 ## Links
     
 > [Project 1: Predict Pulsar](/predictPulsar.ipynb)  
-> [Project 2: Leukemia Detect](/leukemiaDetect.ipynb)
-
+> [Project 2: Leukemia Detect](/leukemiaDetect.ipynb) - **Disabled until May 13, 2021.**
+> 
 ## Citation
 
 Tamagusko, T. (2020). Initiation Project JEST 2020/1. Retrieved from https://github.com/tamagusko/jest20201
