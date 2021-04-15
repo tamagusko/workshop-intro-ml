@@ -32,7 +32,7 @@ Note 3: Feature selection techniques were applied.
 ## Links
     
 > [Project 1: Predict Pulsar](/predictPulsar.ipynb)  
-> [`Project 2: Leukemia Detect`](/leukemiaDetect.ipynb) - **Disabled until May 13, 2021.**
+> [Project 2: Leukemia Detect](/leukemiaDetect.ipynb) - **Disabled until May 13, 2021.**
 > 
 ## Citation
 
