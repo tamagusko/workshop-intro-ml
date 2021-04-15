@@ -56,9 +56,9 @@ Retrieved from https://github.com/spingegod/ProjetoTI_part2
 Dataset to support the study. (2020, Jun 03). 
 Retrieved from https://github.com/spingegod/ProjetoTI_part1  
 <a id="3">[3]</a> 
-Raj, P. (2020). 
+Kaggle (2021). 
 Predicting a Pulsar Star (2021, Apr 15). 
-Retrieved from https://www.kaggle.com/colearninglounge/predicting-pulsar-starintermediate
+Retrieved from https://www.kaggle.com/colearninglounge/predicting-pulsar-starintermediate  
 <a id="4">[4]</a> 
 van Rossum, G. (1995). 
 Python tutorial, May 1995. 
