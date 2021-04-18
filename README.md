@@ -1,3 +1,5 @@
+![](img/head.png)
+
 # JEST internal workshop &#8594; Intro to ML
 
 Internal training workshop to introduce Machine Learning concepts.
@@ -8,20 +10,27 @@ Internal training workshop to introduce Machine Learning concepts.
 
 ## Installation
 
-Go to the [link](introML.ipynb) and make a copy.
+Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introML.ipynb) and make a copy.
 
 ## Topics
 
-- A Data Science project
-- Data Collection
-- Exploratory data analysis
-- Preprocessing
-- Model
-  - Building
-  - Training
-  - Evaluating
-- Improving the model
-- Saving the model
+* A Data Science project
+* Data Collection
+* Exploratory data analysis
+  * Data visualization
+* Preprocessing
+  * Missing Data, Encoding, Standardizing, Feature Engineering
+  * Split data in train/test
+* Models
+  * Decision Tree
+  * Random Forest
+  * KNN
+  * Neural Network  
+* Comparison of models
+  * Metrics
+  * Receiver Operating Characteristic (ROC)  
+* Improving the model
+* Saving and loading models
 
 ## Complementary material
 
