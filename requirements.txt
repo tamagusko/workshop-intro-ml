@@ -1,5 +1,6 @@
-matplotlib==3.4.1
 pandas==1.2.3
+xgboost==1.4.1
+matplotlib==3.4.1
 numpy==1.17.4
 ipython==7.22.0
 scikit_learn==0.24.1
