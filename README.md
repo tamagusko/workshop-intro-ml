@@ -6,11 +6,11 @@ Internal training workshop to introduce Machine Learning concepts.
 
 ## Requirements
 
-- Have a Google account.
+- Have a Google account. 
 
 ## Installation
 
-Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introML.ipynb) and make a copy.
+Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introML.ipynb) and make a copy. (Figures don't work)
 
 ## Topics
 
@@ -48,8 +48,6 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
 Please direct bug reports and pull requests to the GitHub page. To contact me directly, send email to tamagusko@gmail.com.
 
 -- Tiago
-
-## License
 
 [Copyright](LICENSE) (c) 2021, [Tiago Tamagusko](https://github.com/tamagusko).
 
