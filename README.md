@@ -24,8 +24,9 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
 * Models
   * Decision Tree
   * Random Forest
-  * KNN
-  * Neural Network  
+  * KNN (k-nearest neighbors)
+  * Neural Network 
+  * XGBoost (eXtreme Gradient Boosting)
 * Comparison of models
   * Metrics
   * Receiver Operating Characteristic (ROC)  
