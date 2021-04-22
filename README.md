@@ -1,6 +1,6 @@
 ![](img/head.png)
 
-# JEST internal workshop &#8594; Intro to ML
+# JEST internal workshop &#8594; Intro to ML (Crash Course)
 
 Internal training workshop to introduce Machine Learning concepts.
 
