@@ -19,7 +19,6 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
 * Exploratory data analysis
   * Data visualization
 * Preprocessing
-  * Missing Data, Encoding, Standardizing, Feature Engineering
   * Split data in train/test
 * Models
   * Decision Tree
