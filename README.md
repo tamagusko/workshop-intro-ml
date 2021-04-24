@@ -41,7 +41,7 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
 
 ## Participants
 
-[@tamagusko](https://github.com/tamagusko)
+[@tamagusko](https://github.com/tamagusko), Ângelo Ferreira, Nuno Miguel, Matilde Simões, Francisco Santos, Jorge Teixeira, João Pino, Pedro Quesado, Luís Monteiro.
 
 ----
 
