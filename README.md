@@ -10,7 +10,7 @@ Internal training workshop to introduce Machine Learning concepts.
 
 ## Installation
 
-Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introMLcolab.ipynb) and make a copy. (Figures don't work)
+Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introMLcolab.ipynb) and make a copy. 
 
 ## Topics
 
