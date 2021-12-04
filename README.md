@@ -39,10 +39,6 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
 - [3] [Cheat Sheets](https://towardsdatascience.com/collecting-data-science-cheat-sheets-d2cdff092855) - Collecting Data Science Cheat Sheets.
 - [4] [Machine Learning Bites](https://www.notion.so/Machine-Learning-Bites-7c1675ecb587451e9caf793c68972276) - An interview guide on common Machine Learning concepts, best practices, definitions, and theory.
 
-## Participants
-
-[@tamagusko](https://github.com/tamagusko), Ângelo Ferreira, Clarisse Henriques, Nuno Miguel, Matilde Simões, Francisco Santos, Jorge Teixeira, João Pino, Pedro Quesado, Luís Monteiro.
-
 ----
 
 Please direct bug reports and pull requests to the GitHub page. To contact me directly, send email to tamagusko@gmail.com.
