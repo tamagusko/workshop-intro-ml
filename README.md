@@ -6,11 +6,17 @@ Internal training workshop to introduce Machine Learning concepts.
 
 ## Requirements
 
-- Have a Google account. 
+- Have a Google account (1) or install Jupyter Notebook environment (2).
 
 ## Installation
 
-Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introMLcolab.ipynb) and make a copy. 
+Option 1: Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introMLcolab.ipynb) (SHORT VERSION) and make a copy.
+
+Option 2 (recommended - FULL WORKSHOP): 
+1. [Install Jupyter notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/). 
+2. [Install Git](https://github.com/git-guides/install-git).
+3. Open cloned folder (cd {path to your folder}/workshop-intro-ml on terminal).
+4. run pip install -r requirements.txt (in terminal)
 
 ## Topics
 
@@ -24,13 +30,14 @@ Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-int
   * Decision Tree
   * Random Forest
   * KNN (k-nearest neighbors)
-  * Neural Network 
   * XGBoost (eXtreme Gradient Boosting)
+  * Neural Network (Multilayer perceptron) 
 * Comparison of models
   * Metrics
   * Receiver Operating Characteristic (ROC)  
 * Improving the model
 * Saving and loading models
+* Automating tasks (Choosing the best model)
 
 ## Complementary material
 
