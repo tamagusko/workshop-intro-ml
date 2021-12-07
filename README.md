@@ -6,16 +6,17 @@ Internal training workshop to introduce Machine Learning concepts.
 
 ## Requirements
 
-- Have a Google account (1) or install Jupyter Notebook environment (2).
+- Have a Google account (1) or install Jupyter Notebook environment (2)
 
 ## Installation
 
 Option 1: Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introMLcolab.ipynb) (SHORT VERSION) and make a copy.
 
 Option 2 (recommended - FULL WORKSHOP): 
-1. [Install Jupyter notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/). 
-2. [Install Git](https://github.com/git-guides/install-git).
-3. Open cloned folder (cd {path to your folder}/workshop-intro-ml on terminal).
+1. [Install Python](https://www.python.org/downloads/)
+1. [Install Jupyter notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+2. [Install Git](https://github.com/git-guides/install-git)
+3. Open cloned folder (cd {path to your folder}/workshop-intro-ml on terminal)
 4. run pip install -r requirements.txt (in terminal)
 
 ## Topics
