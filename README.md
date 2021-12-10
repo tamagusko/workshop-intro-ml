@@ -33,11 +33,10 @@ Option 2 (recommended - FULL WORKSHOP):
   * KNN (k-nearest neighbors)
   * XGBoost (eXtreme Gradient Boosting)
   * Neural Network (Multilayer perceptron) 
-* Comparison of models
-  * Metrics
-  * Receiver Operating Characteristic (ROC)  
+* Comparison of models (metrics)
 * Improving the model
 * Saving and loading models
+* Overfitting
 * Automating tasks (Choosing the best model)
 
 ## Complementary material
