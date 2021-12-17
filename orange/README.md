@@ -1,5 +1,7 @@
 # Example solved using no-code technology (Orange 3)
 
+![](example.png)
+
 ## Requirements
 
 - install Orange version 3.
