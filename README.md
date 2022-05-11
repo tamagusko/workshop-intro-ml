@@ -12,7 +12,7 @@ Internal training workshop to introduce Machine Learning concepts.
 
 Option 1: Go to the [link](https://colab.research.google.com/github/tamagusko/workshop-intro-ml/blob/main/introMLcolab.ipynb) (SHORT VERSION) and make a copy.
 
-Option 2 (recommended - FULL WORKSHOP): 
+Option 2 (recommended - FULL WORKSHOP):
 1. [Install Python](https://www.python.org/downloads/)
 1. [Install Jupyter notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 2. [Install Git](https://github.com/git-guides/install-git)
@@ -32,7 +32,7 @@ Option 2 (recommended - FULL WORKSHOP):
   * Random Forest
   * KNN (k-nearest neighbors)
   * XGBoost (eXtreme Gradient Boosting)
-  * Neural Network (Multilayer perceptron) 
+  * Neural Network (Multilayer perceptron)
 * Comparison of models (metrics)
 * Improving the model
 * Saving and loading models
@@ -53,4 +53,3 @@ Please direct bug reports and pull requests to the GitHub page. To contact me di
 -- Tiago
 
 [Copyright](LICENSE) (c) 2021, [Tiago Tamagusko](https://github.com/tamagusko).
-
