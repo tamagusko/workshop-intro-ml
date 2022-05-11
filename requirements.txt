@@ -1,3 +1,4 @@
+imblearn
 ipython==7.31.1
 matplotlib==3.4.1
 numpy==1.21
