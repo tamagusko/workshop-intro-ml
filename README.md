@@ -17,6 +17,10 @@ Option 2 (recommended):
 3. cd workshop-intro-ml
 4. pip install -r requirements.txt
 
+## Deploy slides
+
+Use [quarto](https://github.com/quarto-dev): `quarto preview slides.qmd`
+
 ## Topics
 
 * A Data Science project
