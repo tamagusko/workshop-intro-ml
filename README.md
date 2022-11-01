@@ -1,8 +1,6 @@
-![](img/head.png)
+# Intro to ML (Crash Course) &#8594; JEST internal workshop
 
-# JEST internal workshop &#8594; Intro to ML (Crash Course)
-
-Internal training workshop to introduce Machine Learning concepts.
+Workshop to introduce Machine Learning concepts.
 
 ## Requirements
 
@@ -48,7 +46,7 @@ Option 2 (recommended):
 
 ----
 
-Please direct bug reports and pull requests to the GitHub page. To contact me directly, send email to tamagusko@gmail.com.
+Please direct bug reports and pull requests to the GitHub page. To contact me directly, send email to [tamagusko@gmail.com](mailto:tamagusko@gmail.com).
 
 -- Tiago
 
