@@ -1,7 +1,8 @@
 imblearn
-ipython==7.31.1
-matplotlib==3.4.1
-numpy==1.22
-pandas==1.2.3
-scikit_learn==0.24.1
-xgboost==1.4.1
+ipython
+matplotlib
+numpy
+pandas
+scikit_learn
+xgboost
+seaborn

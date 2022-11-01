@@ -1,0 +1,384 @@
+---
+title: "Intro Machine Learning"
+subtitle: "Crash Course - JEST Internal Workshop"
+date: 09/02/2022
+date-format: "DD MMM YYYY"
+author: "Tiago Tamagusko"
+format:
+  revealjs:
+    theme: [src/custom.scss]
+    slide-number: true
+    logo: img/by-nc-nd.png
+    footer: "\u00A9 2022 Tamagusko"
+    embed-resources: true
+---
+## About me
+
+:::: {.columns}
+::: {.column width="60%"}
+- Transportation Specialist
+- Self-taught Data Scientist
+- PhD Candidate @ UC
+- Jest Alumni (TI Coordinator)
+- Research areas: 
+	- Machine Learning 
+	- Computer Vision
+:::
+::: {.column width="40%"}
+![](img/tamagusko.png)
+:::
+::::
+
+## Workshop outline
+
+- Intro (5 minutes)
+- Machine learning basics (25 minutes)
+- A data science project (5 minutes)
+- Hands-on 1: Traditional vs Machine learning (15 minutes)
+- Break: 10 minutes
+- Hands-on 2: Practical example (30 minutes)
+
+Total: 1H30
+
+# Machine Learning
+
+## Can machines thinks?
+
+"Machine Learning algorithms enable the computers to learn from data, and even improve themselves, without being explicitly programmed" (Arthur Samuel).
+
+## Traditional vs ML
+
+:::: {.columns}
+::: {.column width="37%"}
+```{.python}
+def function(param1, param2):
+	if param1 > 1000:
+		if param1 < 3000:
+			if param2 > 5000:
+				pass
+			else: 
+				pass
+		else:
+			pass
+	else:
+		if param2 > 5000:
+			pass
+		else: 
+			pass
+			
+# Note: pass = do something
+```
+:::
+::: {.column width="63%"}
+```{.python code-line-numbers="2,3,6,9,13,17"}
+import pandas as pd
+from sklearn.BRANCH import MODEL_NAME
+from sklearn.metrics import METRIC_NAME
+from sklearn.model_selection import train_test_split
+
+df = pd.read_csv('data.csv')  # load data
+
+# Split data into train/test (70/30)
+X, y = df.drop(['target'], axis=1), df['target']
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, train_size=0.7, random_state=42)
+
+MODEL = MODEL_NAME()  # build model
+MODEL.fit(X_train, y_train)  # train model
+y_pred_MODEL = MODEL.predict(X_test)  # result
+
+METRIC = METRIC_NAME((y_test, y_pred_MODEL)) # eval
+```
+
+:::
+::::
+
+## Evolution {.smaller visibility="hidden"}
+
+![](img/machineLearningEVO.png){fig-align="center"}
+
+by Artificial Intelligence: Linkedin, Machine Learning vs Deep learning
+
+## Methods {.smaller}
+
+![](img/machineLearningMethods.png){fig-align="center"}
+
+by [Abdul Rahid](https://www.slideshare.net/awahid/big-data-and-machine-learning-for-businesses)
+
+## Methods
+
+![](img/supervisedLearning.png){fig-align="center"}
+
+:::: {.columns}
+::: {.column width="50%"}
+![](img/unsupervisedLearning.png)
+:::
+::: {.column width="50%"}
+![](img/reinforcementLearning.png)
+:::
+::::
+
+# Choosing model
+
+[scikit-learn: Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
+
+## Overfitting & Underfitting
+
+```{python}
+#| echo: false
+
+# Source: https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html
+
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import cross_val_score
+
+
+def true_fun(X):
+    return np.cos(1.5 * np.pi * X)
+
+
+np.random.seed(0)
+
+n_samples = 30
+degrees = [1, 4, 15]
+status = ["Underfitting", "Good Fit", "Overfitting"]
+
+gen_X = np.sort(np.random.rand(n_samples))
+gen_y = true_fun(gen_X) + np.random.randn(n_samples) * 0.1
+
+plt.figure(figsize=(14, 5))
+for i in range(len(degrees)):
+    ax = plt.subplot(1, len(degrees), i + 1)
+    plt.setp(ax, xticks=(), yticks=())
+
+    polynomial_features = PolynomialFeatures(degree=degrees[i], include_bias=False)
+    linear_regression = LinearRegression()
+    pipeline = Pipeline(
+        [
+            ("polynomial_features", polynomial_features),
+            ("linear_regression", linear_regression),
+        ]
+    )
+    pipeline.fit(gen_X[:, np.newaxis], gen_y)
+
+    # Evaluate the models using crossvalidation
+    scores = cross_val_score(pipeline, gen_X[:, np.newaxis], gen_y, scoring="neg_mean_squared_error", cv=10
+)
+
+    gen_X_test = np.linspace(0, 1, 100)
+    plt.plot(gen_X_test, pipeline.predict(gen_X_test[:, np.newaxis]), label="Model")
+    plt.plot(gen_X_test, true_fun(gen_X_test), label="True function")
+    plt.scatter(gen_X, gen_y, edgecolor="b", s=20, label="Samples")
+    plt.xlabel("x")
+    plt.ylabel("y")
+    plt.xlim((0, 1))
+    plt.ylim((-2, 2))
+    plt.legend(loc="best")
+    plt.title(f"Degree {degrees[i]} - {status[i]}\nMSE = {-scores.mean():.2e}(+/- {scores.std():.2e})")
+plt.show()
+
+```
+
+## Variance & Bias {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+![](img/biasVariance.png){fig-align="center"}
+
+by [Scott Fortmann-Roe, 2012](https://scott.fortmann-roe.com/docs/BiasVariance.html)
+
+:::
+::: {.column width="50%"}
+![](img/modelComplexity.png){fig-align="center"}
+
+by [Satya Mallick, 2021](https://learnopencv.com/bias-variance-tradeoff-in-machine-learning/)
+
+- High bias: underfitting
+- High variance: overfitting
+:::
+::::
+
+# Algorithms
+
+## Decision Tree {.smaller}
+
+![](img/decisionTree.png){fig-align="center"}
+
+By [synergy37AI](https://medium.com/@synergy37AI), in Medium: [Decision Trees: Lesson 101](https://medium.datadriveninvestor.com/decision-trees-lesson-101-f00dad6cba21).
+
+## Random Forest {.smaller}
+
+![](img/randomForest.jpg){fig-align="center"}
+
+By [Tony Yiu](https://tonester524.medium.com/), in Medium: [Understanding Random Forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2).
+
+## K Nearest Neighbors (KNN) {.smaller}
+
+![](img/knn.jpg){fig-align="center"}
+
+Note: Small K can generate overfitting (learns from noise), large K can generate underfitting (neighbors too far away).
+
+## Extreme Gradient Boosting (XGBoost) {visibility="hidden"}
+
+![](img/xgboost.jpg){fig-align="center"}
+
+## Data Science Project
+
+![](img/dataScienceProject.png){fig-align="center"}
+
+# Hands-on 1
+
+## Data
+
+```{python}
+#| echo: true
+
+import pandas as pd
+
+df = pd.read_csv('data/jobs.csv')
+# Note: True = 1, False = 0
+
+print(df)
+```
+
+## Problem
+
+Accept job offer based on location (remote or face-to-face), salary and coffee!
+
+Accepted:
+
+- $3500+ with remote work.
+- $4000+ with free coffee!
+- $4500+ and I buy my Nespresso.
+
+## Traditional programming
+
+```{python}
+#| echo: true
+
+import pandas as pd
+
+df = pd.read_csv("data/jobs.csv")  # load data
+
+
+def accept_offer(places: str, salary: int, coffee: bool):
+    if places == "remote" and salary >= 3500:
+        return True
+    else:
+        if salary >= 4000 and coffee:
+            return True
+        else:
+            if salary >= 4500:
+                return True
+            else:
+                return False
+
+offer1 = accept_offer("New York", 4400, False)
+offer2 = accept_offer("Berlin", 5000, False)
+offer3 = accept_offer("remote", 3600, False)
+
+print(f"[{offer1} {offer2} {offer3}]")
+
+```
+
+## Machine Learning
+```{python}
+#| echo: true
+
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+
+df = pd.read_csv('data/jobs.csv') # load data
+
+# Preprocessing data
+df['places'].replace({'remote': 1}, inplace=True)
+df['places'].replace(to_replace=r'\D+', value='0', regex=True, inplace=True)
+
+# set X and y
+X, y = df.drop(['jobs', 'accept'], axis=1), df.accept
+
+# Train model
+MODEL = RandomForestClassifier(random_state=1)
+MODEL.fit(X, y)
+
+offers = {'salary': [4400, 5000, 3600],
+          'places': [0, 0, 1], 
+          'coffee': [0, 0, 0]}
+offer = pd.DataFrame(offers)
+
+print(MODEL.predict(offer))
+
+```
+
+# Extra example: {visibility="hidden"}
+
+Iris Flower Dataset
+
+## Data {visibility="hidden"}
+
+```{python}
+#| echo: true
+
+import pandas as pd
+
+df = pd.read_csv('data/iris.csv')
+# Note: Virginica = 0, Versicolor = 1, Setosa = 2
+
+print(df)
+```
+
+## Code {visibility="hidden"}
+
+```{python}
+#| echo: true
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+df = pd.read_csv('data/iris.csv')
+
+# Preprocessing (not needed for target class)
+df['variety'].replace({'Virginica': 0, 'Versicolor': 1, 'Setosa': 2}, inplace=True)
+
+# Split data intro train/test (70/30)
+X, y = df.drop(['variety'], axis=1), df['variety']
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, train_size=0.7, random_state=42, stratify=y)
+
+# Build and train model
+DT = DecisionTreeClassifier(max_depth=3, random_state=42)
+DT.fit(X_train, y_train)
+
+# Test model
+y_pred_DT = DT.predict(X_test)  
+accuracy = accuracy_score(y_test, y_pred_DT)  # Evaluation
+print(y_pred_DT)  # Results
+print(f"Accuracy: {accuracy:.2f}")  # Acc = (TP + TN)/(TP+TN+FP+FN)
+```
+
+
+## Recap
+
+- Traditional programming: 
+	- Explicitly programmed rules
+- Machine learning: 
+	- Learning from data (input + label) - Supervised learning
+	- Label/cluster data (input) - Unsupervised learning
+	- Learn from mistakes and successes (environment) - Reinforcement learning
+
+# Break
+
+10 minutes
+
+# Practical example
+
+## Thanks!
+
+- Repository: 
+
+	<https://github.com/tamagusko/workshop-intro-ml>
