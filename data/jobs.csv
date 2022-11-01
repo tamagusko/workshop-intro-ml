@@ -1,0 +1,9 @@
+jobs,salary,places,coffee,accept
+data-analyst,2500,remote,False,False
+data-scientist,3000,remote,False,False
+data-scientist,3500,remote,False,True
+data-scientist,5000,New York,True,True
+data-engineer,4000,Madrid,True,True
+devops,3500,Lisbon,False,False
+qa-tester,3800,Porto,True,False
+
