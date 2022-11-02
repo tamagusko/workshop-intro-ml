@@ -95,7 +95,7 @@ METRIC = METRIC_NAME((y_test, y_pred_MODEL)) # eval
 
 :::
 
-## Evolution {.smaller visibility="hidden"}
+## Evolution {.smaller background-color="white" visibility="hidden"}
 
 ![](img/machineLearningEVO.png){fig-align="center"}
 
@@ -112,7 +112,7 @@ by [Abdul Rahid](https://www.slideshare.net/awahid/big-data-and-machine-learning
 :::
 
 
-## Methods {background-color="white"}
+## Methods 
 
 ![](img/supervisedLearning.png){fig-align="center"}
 
