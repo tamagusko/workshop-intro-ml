@@ -116,6 +116,12 @@ by [Abdul Rahid](https://www.slideshare.net/awahid/big-data-and-machine-learning
 
 ![](img/supervisedLearning.png){fig-align="center"}
 
+::: {style="font-size: 0.4em"}
+by [javapoint](www.javatpoint.com)
+:::
+
+www.javatpoint.com
+
 :::: {.columns}
 ::: {.column width="50%"}
 ![](img/unsupervisedLearning.png)
