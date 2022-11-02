@@ -1,4 +1,3 @@
-imblearn
 ipython
 matplotlib
 numpy
