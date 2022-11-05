@@ -19,7 +19,7 @@ format:
 - Transportation Specialist
 - Self-taught Data Scientist
 - PhD Candidate @ UC
-- Jest Alumni (TI Coordinator)
+- <https://tamagusko.com>
 - Research areas: 
 	- Machine Learning 
 	- Computer Vision
@@ -399,6 +399,8 @@ print(f"Accuracy: {accuracy:.2f}")  # Acc = (TP + TN)/(TP+TN+FP+FN)
 - Repository: 
 
 	<https://github.com/tamagusko/workshop-intro-ml>
+	
+	or
 	
 	<https://bit.ly/workshop-intro-ml>
 	
