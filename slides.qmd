@@ -29,7 +29,7 @@ format:
 :::
 ::::
 
-## Workshop outline
+## Workshop outline 
 
 - Intro (5 minutes)
 - Machine learning basics (25 minutes)
@@ -43,7 +43,6 @@ Total: 1H30
 # Machine Learning
 
 ## Can machines thinks?
-
 "Machine Learning algorithms enable the computers to learn from data, and even improve themselves, without being explicitly programmed" (Arthur Samuel).
 
 ## Traditional vs ML
@@ -379,7 +378,7 @@ print(f"Accuracy: {accuracy:.2f}")  # Acc = (TP + TN)/(TP+TN+FP+FN)
 ```
 
 
-## Recap
+## Recap {background-color="#000000"}
 
 - Traditional programming: 
 	- Explicitly programmed rules
