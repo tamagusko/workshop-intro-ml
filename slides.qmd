@@ -7,12 +7,15 @@ author: "Tiago Tamagusko"
 format:
   revealjs:
     theme: [src/custom.scss]
-    slide-number: true
+    hash-type: number
+    transition: fade
+    slide-number: c/t
     logo: img/by-nc-nd.png
     footer: "\u00A9 2022 Tamagusko"
     embed-resources: true
+    preview-links: auto
 ---
-## About me
+## About me {background-color="black"}
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -43,7 +46,12 @@ Total: 1H30
 # Machine Learning
 
 ## Can machines thinks?
-"Machine Learning algorithms enable the computers to learn from data, and even improve themselves, without being explicitly programmed" (Arthur Samuel).
+
+<br>
+
+. . . 
+
+> "Machine Learning algorithms enable the computers to learn from data, and even improve themselves, without being explicitly programmed" (Arthur Samuel).
 
 ## Traditional vs ML
 
@@ -94,13 +102,11 @@ METRIC = METRIC_NAME((y_test, y_pred_MODEL)) # eval
 
 :::
 
-## Evolution {.smaller background-color="white" visibility="hidden"}
+## Evolution {visibility="hidden"}
 
 ![](img/machineLearningEVO.png){fig-align="center"}
 
-::: {style="font-size: 0.5em"}
-by Artificial Intelligence: Linkedin, Machine Learning vs Deep learning
-:::
+[by Artificial Intelligence: Linkedin, Machine Learning vs Deep learning]{style="font-size: 20px;"}
 
 ## Methods
 
@@ -114,12 +120,6 @@ by [Abdul Rahid](https://www.slideshare.net/awahid/big-data-and-machine-learning
 ## Methods 
 
 ![](img/supervisedLearning.png){fig-align="center"}
-
-::: {style="font-size: 0.4em"}
-by [javapoint](www.javatpoint.com)
-:::
-
-www.javatpoint.com
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -199,23 +199,18 @@ plt.show()
 ::: {.column width="50%"}
 ![](img/biasVariance.png){fig-align="center"}
 
-::: {style="font-size: 0.4em"}
-by [Scott Fortmann-Roe, 2012](https://scott.fortmann-roe.com/docs/BiasVariance.html)
-:::
+[by [Scott Fortmann-Roe, 2012](https://scott.fortmann-roe.com/docs/BiasVariance.html)]{style="font-size: 20px;"}
 
 :::
 ::: {.column width="50%"}
 ![](img/modelComplexity.png){fig-align="center"}
 
-::: {style="font-size: 0.4em"}
-by [Satya Mallick, 2021](https://learnopencv.com/bias-variance-tradeoff-in-machine-learning/)
-:::
+[by [Satya Mallick, 2021](https://learnopencv.com/bias-variance-tradeoff-in-machine-learning/)]{style="font-size: 20px;"}
 
-::: {style="font-size: 0.6em"}
+::: {style="font-size: 30px"}
 - High bias: underfitting
 - High variance: overfitting
 :::
-
 
 :::
 ::::
@@ -226,24 +221,18 @@ by [Satya Mallick, 2021](https://learnopencv.com/bias-variance-tradeoff-in-machi
 
 ![](img/decisionTree.png){fig-align="center"}
 
-::: {style="font-size: 0.4em"}
-By [synergy37AI](https://medium.com/@synergy37AI), in Medium: [Decision Trees: Lesson 101](https://medium.datadriveninvestor.com/decision-trees-lesson-101-f00dad6cba21)
-:::
+[By [synergy37AI](https://medium.com/@synergy37AI), in Medium: [Decision Trees: Lesson 101](https://medium.datadriveninvestor.com/decision-trees-lesson-101-f00dad6cba21)]{style="font-size: 20px;"}
 
 ## Random Forest
 ![](img/randomForest.jpg){fig-align="center"}
 
-::: {style="font-size: 0.4em"}
-By [Tony Yiu](https://tonester524.medium.com/), in Medium: [Understanding Random Forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)
-:::
+[By [Tony Yiu](https://tonester524.medium.com/), in Medium: [Understanding Random Forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)]{style="font-size: 20px;"}
 
 ## K Nearest Neighbors (KNN)
 
 ![](img/knn.jpg){fig-align="center"}
 
-::: {style="font-size: 0.4em"}
-Note: Small K can generate overfitting (learns from noise), large K can generate underfitting (neighbors too far away).
-:::
+[Note: Small K can generate overfitting (learns from noise), large K can generate underfitting (neighbors too far away).]{style="font-size: 20px;"}
 
 ## Extreme Gradient Boosting (XGBoost) {visibility="hidden"}
 
@@ -253,7 +242,7 @@ Note: Small K can generate overfitting (learns from noise), large K can generate
 
 ![](img/dataScienceProject.png){fig-align="center"}
 
-# Hands-on
+# Hands-on {background-color="black"}
 
 ## Data
 
@@ -272,7 +261,7 @@ print(df)
 
 Accept job offer based on location (remote or face-to-face), salary and coffee!
 
-Accepted:
+Conditions:
 
 - $3500+ with remote work.
 - $4000+ with free coffee!
@@ -377,8 +366,7 @@ print(y_pred_DT)  # Results
 print(f"Accuracy: {accuracy:.2f}")  # Acc = (TP + TN)/(TP+TN+FP+FN)
 ```
 
-
-## Recap {background-color="#000000"}
+## Recap {background-color="black"}
 
 - Traditional programming: 
 	- Explicitly programmed rules
@@ -395,11 +383,20 @@ print(f"Accuracy: {accuracy:.2f}")  # Acc = (TP + TN)/(TP+TN+FP+FN)
 
 ## Thanks!
 
-- Repository: 
+<br>
 
-	<https://github.com/tamagusko/workshop-intro-ml>
-	
-	or
-	
-	<https://bit.ly/workshop-intro-ml>
-	
+[\@tamagusko](https://www.linkedin.com/in/tamagusko/) on LinkedIn to stay in touch!
+
+<br>
+
+#### Course repository
+
+:::{style="font-size: 30px;"}
+
+- [github.com/tamagusko/workshop-intro-ml](https://github.com/tamagusko/workshop-intro-ml)
+
+or
+
+- [bit.ly/workshop-intro-ml](https://bit.ly/workshop-intro-ml)
+
+:::
