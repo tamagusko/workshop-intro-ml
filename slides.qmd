@@ -55,9 +55,8 @@ Total: 1H30
 
 ## Traditional vs ML
 
-::: {.panel-tabset}
-
 ### Traditional
+
 ```{.python}
 def function(*args):
 	if args[0] > c0:
@@ -75,9 +74,10 @@ def function(*args):
 				....
 		else: 
 			pass
-			
-# Note: pass = do something
 ```
+
+## Traditional vs ML
+
 ### Machine learning
 
 ```{.python}
@@ -99,8 +99,6 @@ y_pred_MODEL = MODEL.predict(X_test)  # result
 
 METRIC = METRIC_NAME((y_test, y_pred_MODEL)) # eval
 ```
-
-:::
 
 ## Evolution {visibility="hidden"}
 
@@ -259,7 +257,7 @@ print(df)
 
 ## Problem
 
-Accept job offer based on location (remote or face-to-face), salary and coffee!
+Accept job offer based on **location** (remote or face-to-face), **salary** and **coffee**!
 
 Conditions:
 
