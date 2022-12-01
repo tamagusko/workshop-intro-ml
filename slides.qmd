@@ -1,12 +1,12 @@
 ---
 title: "Intro Machine Learning"
-subtitle: "Crash Course - JEST Internal Workshop"
-date: 09/02/2022
+# subtitle: "Crash Course - JEST Internal Workshop"
+# date: 09/02/2022
 date-format: "DD MMM YYYY"
 author: "Tiago Tamagusko"
 format:
   revealjs:
-    theme: [src/custom.scss]
+    theme: [default, src/custom.scss]
     hash-type: number
     transition: fade
     slide-number: c/t
@@ -242,6 +242,16 @@ plt.show()
 
 # Hands-on {background-color="black"}
 
+## Problem
+
+Accept job offer based on **location** (remote or face-to-face), **salary** and **coffee**!
+
+Conditions:
+
+- $3500+ with remote work.
+- $4000+ with free coffee!
+- $4500+ and I buy my Nespresso.
+
 ## Data
 
 ```{python}
@@ -254,16 +264,6 @@ df = pd.read_csv('data/jobs.csv')
 
 print(df)
 ```
-
-## Problem
-
-Accept job offer based on **location** (remote or face-to-face), **salary** and **coffee**!
-
-Conditions:
-
-- $3500+ with remote work.
-- $4000+ with free coffee!
-- $4500+ and I buy my Nespresso.
 
 ## Traditional programming
 
